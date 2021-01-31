@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "test-cmp": "/components/TestCmp/index"
+  }
+}

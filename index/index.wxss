@@ -1,0 +1,31 @@
+.intro {
+  margin: 20px;
+  text-align: center;
+}
+
+.page__bd{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section{
+  width: 50%;   
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.section-ctn{
+  width:100%;
+  background: #ccffcc;
+}
+
+.section__title{
+  font-size: 10px;
+  padding: 10px;
+}
+
+.img{
+  display: block;
+  width:100%;
+}

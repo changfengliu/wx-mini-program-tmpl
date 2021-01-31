@@ -1,0 +1,15 @@
+<view class="intro">
+  My frist wx mini program demo
+  <test-cmp></test-cmp>
+  <button type="primary" size="mini" bindtap="clickMe">点击排序图片 {{msg}}</button>
+  <view class="page__bd">
+    <view class="section" wx:for="{{imgs}}" wx:for-item="item" wx:key="text">
+      <view class="section-ctn">
+        <view class="section__title">{{item.text}}</view>
+        <view>
+          <image class="img" mode="{{item.mode}}" src="{{imgSrc}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
