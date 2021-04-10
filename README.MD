@@ -1,4 +1,4 @@
-# mini-code demo
+# wx-mini-program-tmpl
 
 # 运行
 微信开发者工具打开
